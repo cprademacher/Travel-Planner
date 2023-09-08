@@ -3,6 +3,10 @@ const sequelize = require("../../config/connection");
 const { travelers, locations, trips } = require("../../models");
 
 // Get all travelers
-router.get();
+// router.get("/", async (req, res) => {
+//     try {
+//         const travelers = await traveler.findAll()
+//     }
+// });
 
-// Building this by working off of activity 25 in Module 13 activities
+// Building this by working off of activity 24 in Module 13 activities
